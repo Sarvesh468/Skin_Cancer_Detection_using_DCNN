@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<style>
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Skin Cancer Detection</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="icon" href="../static/images/medical-icon.png">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+
+        <li><h><strong>SKIN CANCER DETECTION</strong></h></li>
+        </ul>        
+      </nav>
+    </header>
+    <main>
+      <div class="center">
+      <img src="../static/images/dermatologist.png" width="500" height="300">
+      </div>
+      <br>
+      <h4>Welcome to our skin cancer detection web application. Our platform provides an easy and accurate way to analyze your skin lesion and detect potential skin cancer. Simply upload a photo of your skin lesion, and our advanced algorithm will analyze the image and provide you with a diagnosis within minutes.</h4>
+      <br>
+      <h3>Types of Skin Cancer</h3>
+      <p>There are four main types of skin cancer: basal cell carcinoma, actinic keratoses and intraepithelial carcinomae,pyogenic granulomas and hemorrhage, and melanoma.For more info </form>
+        <a href="https://www.mayoclinic.org/diseases-conditions/skin-cancer/symptoms-causes/syc-20377605" target="_blank" class="learn-more-button" >Click here</a>.</p>
+      <br>
+      <h3>UPLOAD IMAGE OF YOUR SKIN LESION.</h3>
+  <center>
+        <form action="/showresult" method="post" enctype="multipart/form-data">
+        <div class="form-inline col-sm-4">
+        <input class="form-control" onchange="readURL(this);" type="file" name="pic" class="custom-file-input">
+        <br>
+        <input class="btn btn-light" type="submit" style="background-color:rgb(0, 185, 0); color:white;">
+  </center>
+      <h3>Preventing Skin Cancer</h3>
+      <p>Prevention is the key to reducing the risk of skin cancer. Learn how to protect your skin from harmful UV rays and reduce your risk of developing skin cancer.For more info <a href="https://www.skincancer.org/skin-cancer-prevention/" target="_blank" class="learn-more-button" >Click here</a>.</p> 
+      
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+      <p>&copy; 2023 Skin Cancer Detection. All rights reserved.</p>
+      <nav>
+        <ul>
+        
+          
+          <li><a href="mailto:224003178@sastra.ac.in,?subject=Regarding%20the%20website&body=Hi,%20I%20have%20a%20question%20about%20your%20website.">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
